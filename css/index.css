@@ -1,0 +1,31 @@
+/*没有定义position,默认是静态定位,不能使用top,left等*/
+#change {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 5vh;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border: none;
+    background: 
+    linear-gradient(90deg,#03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    border-radius: 30px;
+    background-size: 400%;
+    z-index: 1;
+}
+
+@keyframes animate {
+    from {
+        background-position: 0%;
+    }
+    to {
+        background-position: 400%;
+    }
+}
