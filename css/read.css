@@ -22,12 +22,14 @@ body.fade-out {
 }
 
 .main {
-    width: 60vh;
+    width: 70vh;
     height: 80vh;
     overflow: hidden;
     /*border: 1px solid #fff;*/
     padding: 2vw;
     word-break: break-all;
+    position: fixed;
+    top:5%;
 }
 
 .main span{
@@ -49,6 +51,9 @@ body.fade-out {
     margin-top: 20px;
     transition: opacity 1s ease-in-out;
 /*     animation: fadeInOut 2s infinite; */
+    position: fixed;
+    right: 10%;
+    bottom: 10%;
 }
 
 @keyframes animate {
