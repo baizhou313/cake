@@ -38,4 +38,16 @@ body.fade-in {
     justify-content: center;
 }
  */
+#message {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
 
